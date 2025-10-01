@@ -1,7 +1,5 @@
-# login-signup-page
 # LOGIN-SIGNUP-page
 
-cd LOGIN-SIGNUP-page.  #type this in terminal first to proceed
 
 1. One-time setup (only if the environment is brand new)
 (If any package is already installed, apt will skip it.)
@@ -62,4 +60,4 @@ redis-cli FLUSHALL                                  # Clear sessions
 sudo mysql -u root -p -e "TRUNCATE TABLE login_signup.users;"   # Reset users table
 
 
-That’s everything you need to bring the stack up from scratch. If you’d like a script to automate parts of this or instructions for deployment
+That’s everything you need to bring the stack up from scratch. If you’d like a script to automate parts of this or instructions for deployment, just let me know!
